@@ -1,9 +1,9 @@
-#
+# Загружаем модуль json
 import json
 
 
 def load_candidates():
-    """"""
+    """Эта функция загружает данные из файла"""
     with open('candidates.json', 'r', encoding='utf-8') as file:
         candidates = json.load(file)
     return candidates
